@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>find_cirid</class>
+ <widget class="QDialog" name="find_cirid">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #00BFFF</string>
+  </property>
+  <widget class="QLineEdit" name="cirID">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>180</y>
+     <width>380</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Apple Symbols</family>
+     <pointsize>30</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #00BFFF;
+color: white;
+font: 30pt &quot;Apple Symbols&quot;;
+border: 2px solid white;
+border-radius: 30;</string>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>381</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Apple Symbols</family>
+     <pointsize>30</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">text-align: center;
+color: white;
+border-color: white;
+border-width: 2px;
+font: 75 30pt &quot;Apple Symbols&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Поиск диапазонов &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;по ключу &lt;span style=&quot; font-size:36pt; font-weight:600;&quot;&gt;cir_ID&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>270</y>
+     <width>381</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: #00BFFF;
+	background-color: white;
+	border: 2px solid rgb(59, 131, 189);
+	border-radius: 30;
+}
+
+QPushButton:pressed {
+background-color: rgb(200, 255, 255);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>ПОИСК</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="applic_vlalue">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>370</y>
+     <width>380</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Apple Symbols</family>
+     <pointsize>50</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #00BFFF;
+color: white;
+font: 50pt &quot;Apple Symbols&quot;;
+border: 2px solid white;
+border-radius: 30;</string>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>470</y>
+     <width>381</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	color: #00BFFF;
+	background-color: white;
+	border: 2px solid rgb(59, 131, 189);
+	border-radius: 30;
+}
+
+QPushButton:pressed {
+background-color: rgb(200, 255, 255);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>ЗАКРЫТЬ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

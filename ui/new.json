@@ -1,0 +1,69 @@
+{
+  "items": [
+    {
+      "cirID": "ALL",
+      "evaluate": "",
+      "resolve": "95001~95999"
+    },
+    {
+      "cirID": "RRJ",
+      "evaluate": "",
+      "resolve": "95005~95015"
+    },
+    {
+      "cirID": "SU",
+      "evaluate": "",
+      "resolve": "95010~95020"
+    },
+    {
+      "cirID": "opt1",
+      "evaluate": "SU+AA+RRJ",
+      "resolve": "95005~95020|95041~95061"
+    },
+    {
+      "cirID": "RRJ-27-00041-BD",
+      "evaluate": "RRJ+SU+BB",
+      "resolve": "95005~95020|95210~95220"
+    },
+    {
+      "cirID": "AA",
+      "evaluate": "",
+      "resolve": "95041~95061"
+    },
+    {
+      "cirID": "BB",
+      "evaluate": "",
+      "resolve": "95210~95220"
+    },
+    {
+      "cirID": "opt2",
+      "evaluate": "AA+BB",
+      "resolve": "95041~95061|95210~95220"
+    },
+    {
+      "cirID": "opt3",
+      "evaluate": "RRJ+SU+AA+BB+SU",
+      "resolve": "95005~95020|95041~95061|95210~95220"
+    },
+    {
+      "cirID": "SU1",
+      "evaluate": "",
+      "resolve": "95001~95015"
+    },
+    {
+      "cirID": "SU2",
+      "evaluate": "",
+      "resolve": "95501~95522"
+    },
+    {
+      "cirID": "SU_summ",
+      "evaluate": "SU1+SU2",
+      "resolve": "95001~95015|95501~95522"
+    },
+    {
+      "cirID": "new",
+      "evaluate": "AA+SU2",
+      "resolve": "95041~95061|95501~95522"
+    }
+  ]
+}

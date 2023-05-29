@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>input_values</class>
+ <widget class="QMainWindow" name="input_values">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>793</width>
+    <height>790</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+    <underline>false</underline>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #00BFFF;</string>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>381</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Apple Symbols</family>
+      <pointsize>30</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-align: center;
+color: white;
+border-color: white;
+border-width: 2px;
+font: 75 30pt &quot;Apple Symbols&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Ввод данных для расчёта&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;строчных применимостей&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="cirID">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>150</y>
+      <width>701</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Apple Symbols</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #00BFFF;
+color: white;
+font: 50pt &quot;Apple Symbols&quot;;
+border: 2px solid white;
+border-radius: 30;</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>$cirID$</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="applic_vlalue">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>230</y>
+      <width>701</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Apple Symbols</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #00BFFF;
+color: white;
+font: 50pt &quot;Apple Symbols&quot;;
+border: 2px solid white;
+border-radius: 30;</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>$Evaluate$</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="result">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>490</y>
+      <width>701</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Apple Symbols</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #00BFFF;
+color: white;
+font: 50pt &quot;Apple Symbols&quot;;
+border: 2px solid white;
+border-radius: 30;</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Результат</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>700</y>
+      <width>331</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: #00BFFF;
+	background-color: white;
+	border: 2px solid rgb(59, 131, 189);
+	border-radius: 30;
+}
+
+QPushButton:pressed {
+background-color: rgb(200, 255, 255);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>ВНЕСТИ В БАЗУ</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="descript">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>610</y>
+      <width>711</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">	color: #00BFFF;
+	background-color: white;
+	border: 2px solid rgb(59, 131, 189);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>700</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: #00BFFF;
+	background-color: white;
+	border: 2px solid rgb(59, 131, 189);
+	border-radius: 30;
+}
+
+QPushButton:pressed {
+background-color: rgb(200, 255, 255);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>ПОИСК ДИАПАЗОНОВ</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="applic_vlalue_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>310</y>
+      <width>701</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Apple Symbols</family>
+      <pointsize>50</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #00BFFF;
+color: white;
+font: 50pt &quot;Apple Symbols&quot;;
+border: 2px solid white;
+border-radius: 30;</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>$Resolve$</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>700</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: #00BFFF;
+	background-color: white;
+	border: 2px solid rgb(59, 131, 189);
+	border-radius: 30;
+}
+
+QPushButton:pressed {
+background-color: rgb(200, 255, 255);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>ВЫЙТИ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>400</y>
+      <width>701</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: #00BFFF;
+	background-color: white;
+	border: 2px solid rgb(59, 131, 189);
+	border-radius: 30;
+}
+
+QPushButton:pressed {
+background-color: rgb(200, 255, 255);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Конвертировать</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
